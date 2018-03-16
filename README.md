@@ -34,4 +34,5 @@ En la página de login pedirá el nombre de usuario o el email y el password.
 * El proyecto debe estar subido en un contendor en vagrant, y debe cumplir las siguientes condiciones:
   * Debe disponer de un vagrantfile y un archivo .sh donde se encuentren todos los scripts necesarios para construir el contenedor y nuestra aplicacion se autoejecute.
   * El contendor debe tener abierto el puerto 80 y apuntara internamente al puerto 3000 donde tenemos apuntado nuestro servidor de node.js
+  * El contendor debe disponer un mysql instalado con la tabla descrita anteriormente.
 * Dentro del package.json debemos disponer la tarea production debe llamar al módulo forever y arrancar la maquina.
