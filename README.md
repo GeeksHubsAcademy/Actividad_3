@@ -17,7 +17,7 @@ En la página de login pedirá el nombre de usuario o el email y el password.
 * Respecto a la página de registro se deberá tener en cuenta las siguientes condiciones:
   * Se deberá comprobar que el password se introduzca en los dos campos igual en caso de no ser así deberá mostrar un mensaje que nos índique que no son iguales.
   * Una vez comprobado la clave se deberá encriptar debemos generar una funcion que realize dicha tarea.
-* Respecto a la página de login cuando se pulse debe aparecer un mensaje indicándonos que introduzcamos el email para recupera la contraseña.
+* Respecto a la página de login cuando se pulse "NO RECUERDAS TU CONTRASEÑA" debe aparecer un mensaje indicándonos que introduzcamos el email para recupera la contraseña.
 * Se deberá crear una Base de Datos que dispondrá de una tabla con los siguients campos:
   * id -> Integer, autonumérico, not null y clave principal.
   * usuario -> varchar(45) not null
